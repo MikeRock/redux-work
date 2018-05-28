@@ -20,12 +20,13 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "husky": "^0.14.3"
+    "husky": "^1.0.0-rc.8",
+    "jest-cli": "^23.0.1"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm test"
+      "pre-commit": "echo 'COMMITING DATA'",
+      "pre-push": ""
     }
   }
 }
